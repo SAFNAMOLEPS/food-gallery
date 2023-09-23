@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cabin&family=Dancing+Script:wght@700&family=Marcellus&family=Moon+Dance&display=swap');
+*{
+    font-family: 'Marcellus', serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(243, 133, 42);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding-top:20px ;
+    }
+    header ul{
+        display: flex;
+        padding-left: 50%;
+        
+    }
+    header ul li a{
+        padding-right: 50px;
+        text-decoration: none;
+        color: blueviolet;   
+     }
+     video{
+        width: 100%;
+     }
+    h3{
+        color: blueviolet;
+        padding-left: 20px;
+        
+    }
+    h3:hover{
+        text-shadow: 3px 5px 5px rgb(231, 32, 32);
+        
+}
+header ul li a:hover{
+    text-decoration: underline;
+    text-shadow: 3px 5px 5px rgb(231, 32, 32)
+}
+i{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://img.rawpixel.com/private/static/images/website/2022-05/pf-s99-mn-sweet-potato-falafel-bowl-3_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=70b8234164ea2548c9a89b414f831ac3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 500px;
+    padding-top: 200px;
+}
+footer{
+    background-color:rgb(243, 133, 42) ;
+    height: 90px;
+    text-align: center;
+    color: blueviolet;
+    padding: 10px;
+
+}
+footer p:hover{
+    text-decoration: underline;
+    text-shadow: 2px 4px 5px rgb(231, 32, 32)
+}
+h1{
+    color: rgb(250, 57, 9);
+    text-shadow: 3px 6px 5px black;
+    padding-top: 20px;
+    padding-left: 50px;
+   
+
+}
+#outer{
+    width: 100%;
+    height: 800px;
+    background-color: antiquewhite;
+   
+}
+.row1{
+    width: 100%;
+    height: 40%;
+    margin: 20px;
+    display: flex;
+    padding-top: 10px;
+    
+    
+    
+}
+.row2{
+    display: flex;
+    width: 100%;
+    height: 40%;
+}
+.col{
+    margin: 10px;
+    
+    height: 300px;
+    width: 200px;
+}
+
+ img{
+    height: 250px;
+    width: 200px;
+    border-radius: 50px 100px;
+}
+
+.col img:hover{
+    box-shadow: 6px 7px 8px 10px black;
+    transform: translate(5px, 10px);
+}
+.order{
+    height: 400px;
+    background-color: rgb(234, 240, 225);
+    padding-left: 50px;
+}
+
+.order table tr td{
+    padding: 10px;
+}
+button{
+    color:rgb(14, 13, 13) ;
+    background-color: rgb(155, 98, 209);
+    padding: 10px;
+}
+button:hover{
+    text-decoration: underline;
+    box-shadow: 6px 7px 8px 4px black;
+    transform: translate(4px, 8px );
+}
