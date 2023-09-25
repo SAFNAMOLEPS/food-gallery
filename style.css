@@ -82,6 +82,7 @@ h1{
     margin: 20px;
     display: flex;
     padding-top: 10px;
+    padding-left: 45px;
     
     
     
@@ -90,18 +91,20 @@ h1{
     display: flex;
     width: 100%;
     height: 40%;
+    padding-left: 45px;
+    
 }
 .col{
-    margin: 10px;
+    margin: 25px;
     
-    height: 300px;
-    width: 200px;
+    height: 250px;
+    width: 150px;
 }
 
  img{
     height: 250px;
-    width: 200px;
-    border-radius: 50px 100px;
+    width: 150px;
+    border-radius: 50px 90px;
 }
 
 .col img:hover{
@@ -126,4 +129,76 @@ button:hover{
     text-decoration: underline;
     box-shadow: 6px 7px 8px 4px black;
     transform: translate(4px, 8px );
+}
+@media screen and (max-width:400px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    header{
+        background-color: rgb(232, 142, 142);
+        margin: 0px;
+        width: 400px;
+        height: 30px;
+        padding-top: 20px;
+        font-size: xx-small;
+    }
+    header ul li a{
+        margin: 0px;
+    
+    }
+    header ul{
+        padding-left: 0px;
+        margin: 0px;
+    }
+    header ul li{
+        margin: 0px;
+        padding: 0px; 
+     }
+    .video{
+        width: 400px;
+    }
+    h3{
+        padding-right: 10px;
+    }
+    #outer{
+        width: 400px;
+        height: 400px;
+    }
+    .row1{
+        
+        width: 400px;
+        height: 150px;
+        padding-left: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .col{
+        height: 50px;
+        width: 40px;
+        margin: 19px;
+        
+    }
+    img{
+        width: 50px;
+        height: 80px;
+    }
+    h3{
+        font-size: smaller;
+        padding-left: 8px;
+    }
+    .row2{
+        width: 400px;
+        height: 200px;
+        padding-left: 0px;
+    }
+    footer{
+        width: 400px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .order{
+        padding-left: 10px;
+    }
 }
